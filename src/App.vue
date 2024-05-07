@@ -97,7 +97,7 @@ export default {
       this.drawer = false
     }
 
-    console.log('a')
+    console.log('aa')
   },
   computed: {
     mainContentClass() {
