@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const baseApi = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || process.env.VITE_API_URL + '/api'
+  baseURL: 'https://joker-server-8c4f828b3911.herokuapp.com/api'
 })
 
 const api = {
