@@ -1,0 +1,1 @@
+import{y as a}from"./index-iX-OmT2o.js";const s=a("players",{state:()=>({availablePlayers:[],selectedPlayers:[]}),actions:{setAvailablePlayers(e){this.availablePlayers=e},setSelectedPlayers(e){this.selectedPlayers=e}},getters:{getAvailablePlayers(e){return e.availablePlayers},getSelectedPlayers(e){return e.selectedPlayers}}});export{s as u};
