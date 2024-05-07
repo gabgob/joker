@@ -31,3 +31,5 @@ jobs:
           BASE_BRANCH: main
           BRANCH: gh-pages
           FOLDER: dist
+          VITE_ENV: ${{ secrets.VITE_ENV }}
+          VITE_API_URL: ${{ secrets.VITE_API_URL }}
