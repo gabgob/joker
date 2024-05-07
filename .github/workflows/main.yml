@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - gh-pages
+      - main
 
 jobs:
   build-and-deploy:
@@ -27,7 +27,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          branch: gh-pages  # Change this to your GitHub Pages branch
-          folder: dist      # Change this to your build output folder
+          branch: gh-pages
+          folder: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
