@@ -21,25 +21,3 @@ export const usePlayersStore = defineStore('players', {
     }
   }
 })
-
-export const useGameStore = defineStore('game', {
-  state: () => {
-    return {
-      game: {
-        id: null,
-        players: []
-      }
-    }
-  },
-  actions: {
-    setGame(val) {
-      this.game.id = val.id
-      this.game.players = val.players
-    }
-  },
-  getters: {
-    getGameDetails(state) {
-      return state.game
-    }
-  }
-})
